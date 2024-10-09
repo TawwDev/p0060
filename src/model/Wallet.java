@@ -21,10 +21,4 @@ public class Wallet {
         this.money = money;
     } 
     
-    public void inputWallet(){
-        Validation i = new Validation();
-        int amount = i.getInt("input value of wallet:", 0, Integer.MAX_VALUE);
-        setMoney(amount);
-    }
-    
 }

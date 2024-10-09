@@ -5,10 +5,11 @@ public class Person {
     private Wallet wallet;
 
     public Person() {
+        
     }
 
-    public Person(Wallet wallet) {
-        this.wallet = wallet;
+    public Person(int amount) {
+        this.wallet = new Wallet(amount);
     }
 
     public Wallet getWallet() {
